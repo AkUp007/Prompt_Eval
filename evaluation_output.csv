@@ -1,0 +1,28 @@
+question,user_prompt,score1,score2,net_score,prompt_challenging,effectiveness_score,effectiveness_text
+"Broad goal: designing a one-week community health campaign.
+Required elements to add complexity: Multi-step reasoning, edge-case handling","We need to run a one-week community health campaign to boost healthy eating and exercise.
+1. Identify main groups (kids, adults, seniors) and what stops them from healthy habits.
+2. Write a slogan for each group and suggest two types of events (like �free yoga� or �nutrition workshop�).
+3. Plan events Monday through Friday�describe location and time. If it rains, say what to do.
+4. List two local organizations to partner with and what they could contribute.
+5. Explain how we�ll measure success (attendance or surveys).
+Return everything in one document with headings for each step. ",0.5,0.3,0.4,No,8.3,Effective
+"Broad goal: designing a one-week community health campaign.
+Required elements to add complexity: Multi-step reasoning, edge-case handling","You are a public health coordinator for a town of 50,000. Design a one?week nutrition and fitness campaign as follows:
+1. Audience Segments:
+   � Identify three groups (e.g., children ?12, adults 18�50, seniors >65) and two barriers each faces.
+2. Messages:
+   � For each group, write one slogan and a tagline.
+   � Use age?appropriate, culturally sensitive language.
+3. Event Schedule:
+   � Plan five events (e.g., �Day 1: School assembly + veggie tasting�).
+   � If rain >50% chance, move outdoor events indoors (e.g., community center).
+4. Partnerships:
+   � List three local partners and what they�ll provide (e.g., �YMCA: instructor for fitness class�).
+   � If any partner cancels, use a volunteer or pre?recorded video.
+5. Evaluation:
+   � Choose two metrics (e.g., attendance, pre/post survey on servings).
+   � Describe one qualitative feedback method.
+   � If under 30 surveys per group, extend data collection by two days at a grocery stand.
+Return a single document with sections: �Audience Segments,� �Messages,� �Event Schedule,� �Partnerships,� and �Evaluation.� Include numbered subsections matching these steps.",0.5,0.45,0.475,No,8.0,Effective
+,,0.0,0.0,0.0,No,9.0,Ineffective
